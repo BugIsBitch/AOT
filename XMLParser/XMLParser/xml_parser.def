@@ -1,0 +1,25 @@
+LIBRARY	"XMLParser"
+
+
+EXPORTS
+; xml interfaces
+    load_doc                          @1000
+    get_root                          @1001
+    xpath                              @1002
+    get_name                         @1003
+    get_element                     @1004
+    get_attribute                    @1005
+    get_attr_value                   @1006
+    add_element                      @1007
+    add_attribute                     @1008
+    set_attr_value                    @1009
+    save_file                            @1010
+    get_cal_crc_value               @1016
+    load_second_doc                 @1017
+    
+    push                                   @1011
+    pop                                     @1012
+    init_stack                            @1013
+    stack_empty                        @1014
+    stack_elem_in                      @1015
+	init_scnd_stk                        @1018

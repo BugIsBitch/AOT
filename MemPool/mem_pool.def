@@ -1,0 +1,8 @@
+LIBRARY	"MemPool"
+
+EXPORTS
+; MemPool interfaces
+    mem_free                           @1000
+    mem_malloc                        @1001
+	init_mem_pool                     @1002
+

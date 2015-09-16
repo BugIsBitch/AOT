@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EndSystemPathConfig>
+    <SimpleEndSystems>
+         <SimpleEndSystem name= "" ip = "" path=""/>
+    </SimpleEndSystems>
+    <AFDXEndSystems>
+	 <AFDXEndSystem name="" ip="" path="res/SwitchNetConfig.xml"/>      
+    </AFDXEndSystems>
+</EndSystemPathConfig>

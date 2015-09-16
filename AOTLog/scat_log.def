@@ -1,0 +1,8 @@
+LIBRARY	"SCAT_Log"
+
+EXPORTS
+; log interface
+    log_init                        @4000
+    log_entry                     @4001
+    log_end                        @4002
+    log_comment                @4003

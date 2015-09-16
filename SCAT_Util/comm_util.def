@@ -1,0 +1,13 @@
+LIBRARY	"SCAT_Util"
+
+EXPORTS
+; common util interface
+    init_project_path                        @5000
+    get_project_path                        @5001
+    htoi                                           @5002
+    str_to_db                                   @5003
+    str_to_int                                   @5004
+	is_relative_path                          @5005
+	cnst_full_path                             @5006
+	get_file_name                             @5007
+	check_folder_exist                       @5008

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AOTConfig>
+    <FirstLevelOptConfig>
+         <InputConfig>
+         </InputConfig>
+         <OutputConfig>
+         </OutputConfig>
+	 </FirstLevelOptConfig>
+	 
+	 <SecondLevelOptConfig>
+	     <InputConfig>
+		     
+         </InputConfig>
+         <OutputConfig>
+		    
+         </OutputConfig>
+	 </SecondLevelOptConfig>
+	 <ThirdLevelOptConfig>
+	     <InputConfig>
+		     <InputNetWorkDef path="res/SwitchNetConfig.xml"/>
+         </InputConfig>
+         <OutputConfig>
+		     <OutputNetWorkDef path="res/SwitchNetConfig3.xml"/> 
+         </OutputConfig>
+	 </ThirdLevelOptConfig>
+	 <FourthLevelOptConfig>
+	     <InputConfig>
+		     <InputNetWorkDef path="res/SwitchNetConfig.xml"/>
+         </InputConfig>
+         <OutputConfig>
+		     <OutputNetWorkDef path="res/SwitchNetConfig4.xml"/> 
+         </OutputConfig>
+	 </FourthLevelOptConfig>
+	 <NetWorkAnalysisConfig>
+	   <InputConfig>
+		     <InputNetWorkDef path="res/SwitchNetConfig.xml"/>
+         </InputConfig>
+         <OutputConfig>
+		     <OutputNetWorkDef path="res/SwitchNetConfigA.xml"/> 
+         </OutputConfig>
+		 <OutputLogConfig>
+		     <OutputLogDef path="res/log.txt"/> 
+         </OutputLogConfig>
+	 </NetWorkAnalysisConfig>
+</AOTConfig>

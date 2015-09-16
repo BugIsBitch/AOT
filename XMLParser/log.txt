@@ -1,0 +1,10 @@
+
+Microsoft (R) 程序维护实用工具 9.00.21022.08 版
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9035 :“GX”选项已否决，并将在将来的版本中移除
+cl: 命令行 warning D9036 :使用“EHsc”而不使用“GX”
+cl: 命令行 warning D9035 :“GZ”选项已否决，并将在将来的版本中移除
+cl: 命令行 warning D9036 :使用“RTC1”而不使用“GZ”
+cl: 命令行 warning D9002 :忽略未知选项“/MLd”
+cl: 命令行 warning D9002 :忽略未知选项“/YX”

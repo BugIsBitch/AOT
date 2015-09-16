@@ -1,0 +1,32 @@
+LIBRARY	"ThrdLvlOptAgm"
+
+EXPORTS
+; ThrdLvlOptAgm interfaces   
+bgn_thr_lvl_opt                                       @7000
+init_noa_thr_lvl_opt                               @7003
+initial_snat                                   @7004
+get_vl_path_arr                               @7005
+set_vl_path_arr                               @7006
+get_vl_para_arr                              @7007
+set_vl_para_arr                              @7008
+set_vl_para_tpa                              @7009
+get_vl_para_id                                @7010
+get_output_vl_arr                            @7011
+set_output_vl_arr                            @7012
+get_vl_delay                                 @7013
+set_vl_delay                                 @7014
+get_all_sw_buf_queue_dep_arr                  @7015
+set_all_sw_buf_queue_dep_arr                  @7016
+get_sw_rec_arr                                @7017
+set_sw_rec_arr                                @7018
+set_sw_network_two                             @7020
+ag_set_sw_net_two                              @7021
+get_set_sw_net_two                             @7022
+get_sw_ord_id                                 @7023
+get_sw_number_net                              @7027
+create_graph               @7028
+
+
+set_sw_port_speed         @7031
+get_vl_max_burst          @7032
+get_vl_tpa                @7034
